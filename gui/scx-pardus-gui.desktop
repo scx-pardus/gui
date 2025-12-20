@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SCX Pardus Zamanlayıcı
+Comment=Control scx_pardus scheduler
+Exec=scx-pardus-gui
+Icon=scx-pardus-gui
+Terminal=false
+Categories=System;Utility;
+StartupNotify=true

@@ -1,0 +1,12 @@
+[Unit]
+Description=SCX Pardus eBPF Scheduler
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/scx_pardus
+KillSignal=SIGINT
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
