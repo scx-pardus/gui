@@ -1,0 +1,17 @@
+Source: scx-pardus-gui
+Section: admin
+Priority: optional
+Maintainer: Usame <usame@example.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+
+Package: scx-pardus-gui
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+ python3-gi, gir1.2-gtk-4.0,
+ pkexec, polkitd | policykit-1,
+ systemd
+Recommends: scx-pardus, policykit-1-gnome
+Description: GTK4 GUI to control scx_pardus scheduler (systemd + polkit)
+

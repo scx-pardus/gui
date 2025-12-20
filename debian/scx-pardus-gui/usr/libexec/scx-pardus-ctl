@@ -1,0 +1,21 @@
+#!/bin/sh
+set -eu
+
+SERVICE="scx-pardus.service"
+
+case "${1:-}" in
+  start)
+    systemctl start "$SERVICE"
+    ;;
+  stop)
+    systemctl stop "$SERVICE"
+    ;;
+  logs)
+    # son 200 satır + takip
+    journalctl -u "$SERVICE" -n 200 -f --no-pager
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|logs}" >&2
+    exit 2
+    ;;
+esac

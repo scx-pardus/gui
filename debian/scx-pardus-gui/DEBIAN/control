@@ -1,0 +1,10 @@
+Package: scx-pardus-gui
+Version: 0.2.0
+Architecture: all
+Maintainer: Usame <usame@example.com>
+Installed-Size: 75
+Depends: python3:any, python3-gi, gir1.2-gtk-4.0, pkexec, polkitd | policykit-1, systemd
+Recommends: scx-pardus, policykit-1-gnome
+Section: admin
+Priority: optional
+Description: GTK4 GUI to control scx_pardus scheduler (systemd + polkit)

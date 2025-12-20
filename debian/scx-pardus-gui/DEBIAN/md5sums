@@ -1,0 +1,10 @@
+c0e04818b0f59bb508a96e40009c3ccc  lib/systemd/system/scx-pardus.service
+e2d8de79b4b89b1dcfae1ca11560a014  usr/bin/scx-pardus-gui
+3dd4f3233355da356f9411b86e942c6a  usr/libexec/scx-pardus-ctl
+5ba42964dde26ea244b4305eaa37f118  usr/share/applications/scx-pardus-gui.desktop
+bf257937e5db1b7b1f5d11835620792a  usr/share/doc/scx-pardus-gui/changelog.gz
+7ee4686d706ab9a80a7049d017bc4c39  usr/share/icons/hicolor/128x128/apps/scx-pardus-gui.png
+9d9f6fb9a4c71a027a281428a34da6a3  usr/share/polkit-1/actions/com.scx.pardus.scx_pardus.policy
+39b0d0e6380e3dc13058d4c6664053a3  usr/share/python3/runtime.d/scx-pardus-gui.rtupdate
+13392683fb25bde0e13cd1080cbcbbe6  usr/share/scx-pardus-gui/gui.py
+3dc769266a11cb4d0835277cc902bb0d  usr/share/scx-pardus-gui/style.css

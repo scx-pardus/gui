@@ -1,0 +1,8 @@
+gui/gui.py usr/share/scx-pardus-gui/
+gui/style.css usr/share/scx-pardus-gui/
+gui/scx-pardus-gui usr/bin/
+gui/scx-pardus-gui.desktop usr/share/applications/
+gui/scx-pardus-gui.png usr/share/icons/hicolor/128x128/apps/
+gui/scx-pardus-ctl usr/libexec/
+gui/com.scx.pardus.scx_pardus.policy usr/share/polkit-1/actions/
+gui/scx-pardus.service lib/systemd/system/
