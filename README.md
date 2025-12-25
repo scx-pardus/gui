@@ -6,7 +6,7 @@ GTK4 tabanlı bir kontrol arayüzüdür. Pardus üzerinde çalışan **scx_pardu
 - Başlat / Durdur butonları ile scheduler kontrolü
 - Stdout loglarını arayüzde canlı görüntüleme
 - Binary bulunamazsa kullanıcıyı uyarma
-- Pardus uyumlu Debian paketleme (debian/)
+- Pardus uyumlu Debian paketleme
 
 ## Gereksinimler
 - Python 3
